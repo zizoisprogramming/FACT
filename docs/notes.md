@@ -27,7 +27,15 @@ It is represented in:
 # Time
 How to save latency is a very important oncept
 
+# Model Parameters
 
+## Temperature
+LLM temperature is a parameter that influences the language model’s output, determining whether the output is more random and creative or more predictable. A higher temperature will result in lower probability, i.e more creative outputs. A lower temperature will result in higher probability, i.e more predictable outputs.
+
+### Temperature Paradox
+`higher temperatures` increase `creativity` while `lower temperatures` improve `logical reasoning`
+For tasks like complex math problems that need both logic and creativity, these effects
+may cancel each other out. 
 
 # Resources
 - https://arxiv.org/pdf/2312.04511
@@ -35,3 +43,4 @@ How to save latency is a very important oncept
 - https://arxiv.org/pdf/2605.05980v1
 - https://arxiv.org/pdf/2510.16786v2
 - https://arxiv.org/pdf/2604.26102v1
+- https://www.iguazio.com/glossary/llm-temperature/
